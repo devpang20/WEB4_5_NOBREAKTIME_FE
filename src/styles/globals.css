@@ -124,6 +124,12 @@ button {
     background-position: top;
     background-repeat: no-repeat;
 }
+.bg-image {
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);
