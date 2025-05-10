@@ -43,13 +43,13 @@ export function ClientLayout({ children }: React.ComponentProps<typeof NextTheme
         fetchMember()
     }, [])
 
-    if (isLoginMemberPending) {
-        return (
-            <div className="h-screen flex-1 flex justify-center items-center text-muted-foreground">
-                인증 정보 로딩중...
-            </div>
-        )
-    }
+    // if (isLoginMemberPending) {
+    //     return (
+    //         <div className="h-screen flex-1 flex justify-center items-center text-muted-foreground">
+    //             인증 정보 로딩중...
+    //         </div>
+    //     )
+    // }
 
     // if (loginMember.language === 'NONE') {
     //     router.push('/additional_info')
