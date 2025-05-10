@@ -1,3 +1,5 @@
+'use client'
+
 import DailySelector from '@/components/dashboard/dailySelector'
 import LearningHistory from '@/components/dashboard/learningHistory'
 import LevelBox from '@/components/dashboard/levelBox'
@@ -46,7 +48,7 @@ function Dashboard() {
                                     오늘도 함께 시작해볼까요?
                                 </p>
                                 <button className="mt-4 px-4 py-2 text-lg text-[var(--color-point)] bg-[var(--color-main)] rounded-full">
-                                    Today’s Study →
+                                    Today's Study →
                                 </button>
                             </div>
                             <Image
@@ -55,6 +57,7 @@ function Dashboard() {
                                 width={400}
                                 height={400}
                                 className="mt-8"
+                                priority
                             />
                         </div>
 
