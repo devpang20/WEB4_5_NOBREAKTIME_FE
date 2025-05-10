@@ -89,6 +89,8 @@ body {
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
+    min-width: 1700px;
+    overflow-x: auto;
 }
 
 button {
@@ -98,6 +100,7 @@ button {
 /* 스크롤바 스타일링 */
 ::-webkit-scrollbar {
     width: 4px;
+    height: 4px;
 }
 
 ::-webkit-scrollbar-track {
